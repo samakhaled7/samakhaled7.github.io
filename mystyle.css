@@ -1,0 +1,18 @@
+body {
+  background-color:rgb(230, 179, 201);
+text-align:center;
+}
+.city{
+
+background-color: rgb(210, 121, 160);
+  font-family: courier;
+}
+.note
+{
+  font-size: 300%;
+}
+.mark{
+  border:1px solid;
+  margin: 25px;
+
+}
