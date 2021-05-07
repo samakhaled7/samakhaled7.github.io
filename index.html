@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jsfile.js"></script>
+<title > Sama khaled </title >
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0; ">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+body {
+ background-image:url('background.jpg');
+}
+
+.form {
+color : #602020;
+font-size:2vw ;
+}
+
+.mark{
+  border:1px solid;
+  margin: 25px;
+}
+
+.print{
+  background-color: brown;
+  color: white;
+  position: absolute;
+  left: 0%;
+  top : 0%;
+}
+
+.dd{
+  background-color: brown;
+  color: white;
+  position: absolute;
+  left: 0%;
+  top : 5%;
+}
+
+
+</style>
+</head>
+
+<body  >
+
+<button class = "print" onclick="p()">Print sama’s Resume</button>  <!-- function p()  at the end of the page -->
+<button class = "dd" onclick="document.location='application.html'"> Internship Application
+ </button>
+
+<div class="note" id = "dp"><h1 style="font-size:5vw">  Sama Khaled Nemer Khaled</h1></div>
+
+<div class ="city"><p style="font-size:1.5vw ; color : white ;"><b> I'm a computer science student at Najah National University , I've joined many online courses in computer science , i have many information about c++ languge , I programmed many programs during my studies some subjects at the university in c++ language and currently I have experience in Web Development from the course i currently take</b></p></div>
+
+<div class = "mark"><h2 style="font-size:2.5vw ; color : rgb(172, 57, 57);" ><i> Social media : </i></h2></div>
+<a href=" https://www.facebook.com/profile.php?id=100040989465956"><b>Facebook account</b></a><p>
+<a href = "https://www.instagram.com/sama.24l/?igshid=1jm5lycqrf30m&fbclid=IwAR1AcseX_sRLDrFJhlLVZnmsIa27ubc8KKCXBnNfo4MRkACxRNXsJrPVlcE"><b> Instagram account</b></a><p>
+
+<div class="mark" id="demo1"><h2 style="font-size:2.5vw " ><i> education background</i></h2>
+<dl>
+ <dt ><b>middle school:</b> </dt>   
+    
+       <dd>- I received preparatory education at Al Aqsa School in Tulkarem</dd>        
+    
+ <dt ><b>high school:</b></dt>  
+      
+       <dd>- I got high school at Al-Adawiya High School in Tulkarm from 2017 to 2019.</dd>
+      
+ <dt><b>university: </b></dt>
+             
+         <dd>- Currently studying computer science at Al-Najah University in Nablus, now I'm in my second year.</dd>      
+       
+ <dt><b>Online Course:</b></dt>
+
+     <dd>- I've taken a lot of online courses like c++ and the web.</dd>
+</dl>
+
+</div>
+
+<div class ="mark" id="demo"><h2 style="font-size:2.5vw "><i>work experiences</i></h2>
+<ul>
+  <li><b> c++ Language </b></li>
+  <li><b> c Language </b> </li>
+  <li><b> Web Development </b></li>
+</ul>
+</div>
+<div class = "mark"><h2 style="font-size:2.5vw " ><i> Hobbies </i></h2>
+<ul>
+  <li ><b>video design</b></li>
+  <li><b>walking</b></li>
+  <li><b>climbing in mountains</b></li>
+</ul>
+</div>
+
+<div class = "mark "><h3 style="font-size:2.5vw " ><i> picture : </i></h3></div>
+
+<img src="flower.jpg" alt="Flower" style="width:100%;" >
+
+<script>
+function p(){window.print();}
+
+
+document.getElementById("demo").onmouseover = function() {mouseOver()};
+document.getElementById("demo").onmouseout = function() {mouseOut()};
+function mouseOver() {
+  document.getElementById("demo1").style.color = "green";
+}
+function mouseOut() {
+  document.getElementById("demo1").style.color = "black";
+}
+
+
+document.getElementById("dp").onmouseover = function() {MousOver()};
+function MousOver() {
+alert("Welcome to sama khaled site, please let me know if you have any questions");
+}
+</script>
+
+</body>
+
+</html> 
